@@ -1,0 +1,10 @@
+# Archivos fuente que no necesitan publicarse
+BBDD - Direcciones EE Campamento.xlsx
+mapa sin iconos.jpeg
+
+# Capturas de prueba
+map-*.png
+.playwright-mcp/
+
+# Sistema
+.DS_Store

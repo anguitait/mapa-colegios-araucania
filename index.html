@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa de Colegios — Región de La Araucanía</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Mapa de Colegios — La Araucanía</h1>
+    <p class="subtitle">Pasa el cursor sobre un icono para ver el detalle. Haz clic para abrirlo en Google Maps.</p>
+  </header>
+
+  <main class="map-container" id="mapContainer">
+    <img src="mapa.jpg" alt="Mapa de la Región de La Araucanía" class="map-image" id="mapImage">
+    <div class="markers-layer" id="markersLayer"></div>
+    <div class="tooltip" id="tooltip" role="tooltip"></div>
+  </main>
+
+  <footer class="legend">
+    <span class="legend-dot"></span>
+    <span id="schoolCount"></span>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
