@@ -246,7 +246,7 @@ const SCHOOLS = [
     provincia: "Cautín",
     comuna: "Teodoro Schmidt",
     direccion: "Sector Punta de Riel, Teodoro Schmidt",
-    x: 28.0, y: 70.0,
+    x: 33.0, y: 71.0,
   },
   {
     nombre: "Liceo Lucila Godoy Alcayaga",
